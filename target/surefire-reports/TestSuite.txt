@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 15.342 s <<< FAILURE! - in TestSuite
+org.selenium.pom.tests.MyFirstTestCase.guestCheckoutUsingDirectBankTransfer  Time elapsed: 2.151 s  <<< FAILURE!
+java.lang.AssertionError: expected [Search results: “Blue”] but found [Store]
+	at org.selenium.pom.tests.MyFirstTestCase.guestCheckoutUsingDirectBankTransfer(MyFirstTestCase.java:30)
+
+org.selenium.pom.tests.MyFirstTestCase.loginAndCheckoutUsingDirectBankTransfer  Time elapsed: 2.605 s  <<< FAILURE!
+java.lang.AssertionError: expected [Search results: “Blue”] but found [Store]
+	at org.selenium.pom.tests.MyFirstTestCase.loginAndCheckoutUsingDirectBankTransfer(MyFirstTestCase.java:56)
+
